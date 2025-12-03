@@ -1,0 +1,9 @@
+{
+  "name": "react-pr-35280",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "eslint": "9.39.1",
+    "eslint-plugin-react-hooks": "7.0.1"
+  }
+}

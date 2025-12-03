@@ -1,0 +1,8 @@
+*.pem
+.DS_Store
+.AppleDouble
+.LSOverride
+
+**/node_modules
+.pnpm-debug.log*
+package-lock.json
