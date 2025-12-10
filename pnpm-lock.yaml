@@ -18,8 +18,8 @@ importers:
         specifier: npm:eslint-plugin-react-hooks@7.0.1
         version: 7.0.1(eslint@9.39.1)
       eslint-plugin-react-hooks-canary:
-        specifier: file:eslint-plugin-react-hooks-7.1.0-canary-20251210.tgz
-        version: eslint-plugin-react-hooks@file:eslint-plugin-react-hooks-7.1.0-canary-20251210.tgz(eslint@9.39.1)
+        specifier: file:eslint-plugin-react-hooks-canary-20251210.tgz
+        version: eslint-plugin-react-hooks@file:eslint-plugin-react-hooks-canary-20251210.tgz(eslint@9.39.1)
 
 packages:
 
@@ -419,8 +419,8 @@ packages:
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0
 
-  eslint-plugin-react-hooks@file:eslint-plugin-react-hooks-7.1.0-canary-20251210.tgz:
-    resolution: {integrity: sha512-XXFGe72xCzQjgEmtxdJ/MaRRDK7OQK+42LxaoBNkM+obM1Y4o7Q9CnzXNl6qC9mJXGOPLhtYOKRvw6YTBc0BbQ==, tarball: file:eslint-plugin-react-hooks-7.1.0-canary-20251210.tgz}
+  eslint-plugin-react-hooks@file:eslint-plugin-react-hooks-canary-20251210.tgz:
+    resolution: {integrity: sha512-XXFGe72xCzQjgEmtxdJ/MaRRDK7OQK+42LxaoBNkM+obM1Y4o7Q9CnzXNl6qC9mJXGOPLhtYOKRvw6YTBc0BbQ==, tarball: file:eslint-plugin-react-hooks-canary-20251210.tgz}
     version: 7.1.0-canary-4797f7c6-20251210
     engines: {node: '>=18'}
     peerDependencies:
@@ -1062,7 +1062,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-react-hooks@file:eslint-plugin-react-hooks-7.1.0-canary-20251210.tgz(eslint@9.39.1):
+  eslint-plugin-react-hooks@file:eslint-plugin-react-hooks-canary-20251210.tgz(eslint@9.39.1):
     dependencies:
       '@babel/core': 7.28.5
       '@babel/parser': 7.28.5
