@@ -3,10 +3,15 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "lint": "npx eslint"
+    "line": "node line.js"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild"]
   },
   "devDependencies": {
+    "esbuild": "^0.27.1",
     "eslint": "9.39.1",
-    "eslint-plugin-react-hooks": "7.0.1"
+    "eslint-plugin-react-hooks": "npm:eslint-plugin-react-hooks@7.0.1",
+    "eslint-plugin-react-hooks-canary": "file:eslint-plugin-react-hooks-7.1.0-canary-20251210.tgz"
   }
 }
