@@ -4,9 +4,9 @@ function App() {
     const [, setState] = useState(0);
 
     /**
-     * 💡 Run "npm run lint" to 
-     * 💡 Run "npm run lint" to 
-     * 💡 Run "npm run lint" to 
+     * 💡 Run "npm run lint" 
+     * 💡 Run "npm run lint" 
+     * 💡 Run "npm run lint" 
      */
 
     // ✅ ESLint error reported
